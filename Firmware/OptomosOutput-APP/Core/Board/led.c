@@ -12,10 +12,10 @@
 /* Private defines -----------------------------------------------------------*/
 
 #define LED_RED_PORT    GPIOB
-#define LED_RED_PIN     GPIO_PIN_3
+#define LED_RED_PIN     GPIO_PIN_11
 
 #define LED_GREEN_PORT  GPIOB
-#define LED_GREEN_PIN   GPIO_PIN_4
+#define LED_GREEN_PIN   GPIO_PIN_12
 
 /* Private macros  -----------------------------------------------------------*/
 /* Private typedefs ----------------------------------------------------------*/

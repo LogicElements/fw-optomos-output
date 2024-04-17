@@ -38,6 +38,7 @@
 #include "control.h"
 #include "flash_app.h"
 #include "led.h"
+#include "opm.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -119,6 +120,7 @@ int main(void)
   Led_Init();
   Switch_Init();
   Control_Init();
+  OPM_Init();
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -131,6 +133,7 @@ int main(void)
     /* Low priority - slow handles */
     if (TICK_EXPIRED(tick))
     {
+    	OPM_Handler();
       tick = HAL_GetTick() + PERIOD_HANDLE_LOW_PRIO;
       conf.sys.io_input = Switch_GetAll();
       Control_Handle();

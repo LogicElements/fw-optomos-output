@@ -2,7 +2,7 @@
     "width": 686,
     "height": 600,
     "slave_address": 32,
-    "reg_map": "PrecRtdSim_Modbus.json",
+    "reg_map": "OptoOutMod_Modbus.json",
     "attempts": 2,
     "retry_delay": 0.5,
     "readout_period": 1
