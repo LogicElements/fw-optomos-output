@@ -393,7 +393,7 @@
     "Id":67109201, 
     "VarType":"INT", 
     "Access":"RW", 
-    "Description":"Set calibration resistance values to all channels.\r\nValue 0 - calibration disabled\r\nValue 1 - 8 - 100k low values 0 - 7\r\nValue 9 - 16 - 100k FS values 31, 63, … 255\r\nValue 17 - 24 - 2 x 1k FS values 31, 63, … 255", 
+    "Description":"Set calibration resistance values to all channels.", 
     "Value":"0",
     "NewValue":"0",
     "Reset":"0",
