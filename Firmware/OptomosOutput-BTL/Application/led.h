@@ -36,8 +36,8 @@
 #define LED_R_PORT        GPIOB
 #define LED_G_PORT        GPIOB
 
-#define LED_R_PIN         LL_GPIO_PIN_3
-#define LED_G_PIN         LL_GPIO_PIN_4
+#define LED_R_PIN         LL_GPIO_PIN_11
+#define LED_G_PIN         LL_GPIO_PIN_12
 
 /* Typedefs-------------------------------------------------------------------*/
 
