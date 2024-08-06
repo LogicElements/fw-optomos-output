@@ -28,7 +28,7 @@
 /**
  * Modbus base address
  */
-#define MODBUS_BASE_ADDRESS       32
+#define MODBUS_BASE_ADDRESS       64
 
 /**
  * Led behavior
